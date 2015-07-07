@@ -1,0 +1,157 @@
+{
+	"subject" : "candidates",
+	"columns" : [{
+			"key" : "fullname",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Full Name",
+			"is_objective" : false
+		}, 
+		{
+			"key" : "summary",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Summary",
+			"is_objective" : false
+		},{
+			"key" : "skills",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Skills",
+			"is_objective" : true
+		},
+		{
+			"key" : "interests",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Interests",
+			"is_objective" : true
+		},
+		{
+			"key" : "education",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Education",
+			"is_objective" : true
+		}
+		, {
+			"key" : "courses",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Courses",
+			"is_objective" : true
+		},{
+			"key" : "experience",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Releted Experience",
+			"is_objective" : true
+		}, {
+			"key" : "contact",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Contact",
+			"is_objective" : false
+		}, {
+			"key" : "patience",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Patience",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}, {
+			"key" : "passion",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Passion",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}
+	],
+	"subject" : "candidates",
+	"options" : [{
+			"key" : " 1",
+			"name" : "Robin",
+			"values" : {
+			
+				"fullname" : "Robin",
+				"summary" : "some summary here",
+				"education" : "Bachelor in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Business Analysis, Programmer",
+				"courses" : "RBC Certified Agile Practitioner",
+				"experience" : "5",
+				"contact" : "robon@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+		"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "2",
+			"name" : "Rob",
+			"values" : {
+				"fullname" : "Rob",
+				"summary" : "some summary here",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Business Analysis, Programmer",
+				"experience" : "3",
+				"courses" : "RBC Certified Agile Practitioner",
+				"contact" : "rob@rbc.com",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "3",
+			"name" : "Jack",
+			"values" : {
+				"fullname" : "Jack",
+				"summary" : "some summary here",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Programmer",
+				"courses" : "database design, Improve communication skills",
+				"experience" : "4",
+				"contact" : "jack@rbc.com",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "4",
+			"name" : "Den",
+			"values" : {
+				"fullname" : "Den",
+				"summary" : "some summary here",
+				"education" : "Bachelor of Arts",
+				"skills" : "communication skills",
+				"interests" : "Business Analysis",
+				"courses" : "CSC",
+				"contact" : "den@rbc.com",
+				"experience" : "2",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "5",
+			"name" : "Elan",
+			"values" : {
+				"fullname" : "Elan",
+				"summary" : "some summary here",
+				"education" : "Bachelor in Business",
+				"skills" : "writing, business knowledge",
+				"interests" : "project management",
+				"courses" : "FRM",
+				"contact" : "robon@rbc.com",
+				"experience" : "6",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}
+	]
+}
