@@ -77,13 +77,13 @@
 			"values" : {
 			
 				"fullname" : "Robin",
-				"summary" : "some summary here",
+				"summary" : "I am an excellent Java Developer/Software Engineer focusing on all tiers of J2EE and web application and never afraid to pick up new technologies.",
 				"education" : "Bachelor in Computer Science",
 				"skills" : "Java, C++, GO",
 				"interests" : "Business Analysis, Programmer",
 				"courses" : "RBC Certified Agile Practitioner",
 				"experience" : "5",
-				"contact" : "robon@rbc.com",
+				"contact" : "robin@rbc.com",
 				"patience" : "High",
 				"passion" : "High"
 			},
@@ -93,7 +93,7 @@
 			"name" : "Rob",
 			"values" : {
 				"fullname" : "Rob",
-				"summary" : "some summary here",
+				"summary" : "Senior Developer with great experience in developing Java applications.",
 				"education" : "Master in Computer Science",
 				"skills" : "Java, C++, GO",
 				"interests" : "Business Analysis, Programmer",
@@ -109,7 +109,7 @@
 			"name" : "Jack",
 			"values" : {
 				"fullname" : "Jack",
-				"summary" : "some summary here",
+				"summary" : "2+ years of experience in development of Hadoop. 1+ years of exposure to OpenStack.",
 				"education" : "Master in Computer Science",
 				"skills" : "Java, C++, GO",
 				"interests" : "Programmer",
@@ -125,7 +125,7 @@
 			"name" : "Den",
 			"values" : {
 				"fullname" : "Den",
-				"summary" : "some summary here",
+				"summary" : "Multi-functional experience in Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling.Looking for a challenging opportunity requiring extensive and successful business and IT experience, together with proven accomplishments and strong skills in business analysis, program coordination, project management and communication.",
 				"education" : "Bachelor of Arts",
 				"skills" : "communication skills",
 				"interests" : "Business Analysis",
@@ -141,7 +141,7 @@
 			"name" : "Elan",
 			"values" : {
 				"fullname" : "Elan",
-				"summary" : "some summary here",
+				"summary" : "Accomplished BA with experience performing business analysis client-facing roles in large scale business and technology wealth management projects, as part of Deloitte Consulting and Verax Consulting engagements. 6 years of experience in wealth management, compliance, and client-facing roles. Currently working for the RBC Finance.",
 				"education" : "Bachelor in Business",
 				"skills" : "writing, business knowledge",
 				"interests" : "project management",
