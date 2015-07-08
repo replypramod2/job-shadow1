@@ -1,0 +1,461 @@
+{
+	"subject" : "candidates",
+	"columns" : [{
+			"key" : "fullname",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Full Name",
+			"is_objective" : false
+		}, 
+		{
+			"key" : "summary",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Summary",
+			"is_objective" : false
+		},{
+			"key" : "skills",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Skills",
+			"is_objective" : true
+		},
+		{
+			"key" : "interests",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Interests",
+			"is_objective" : true
+		},
+		{
+			"key" : "education",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Education",
+			"is_objective" : true
+		}
+		, {
+			"key" : "courses",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Courses",
+			"is_objective" : true
+		},{
+			"key" : "experience",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Releted Experience",
+			"is_objective" : true
+		}, {
+			"key" : "contact",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Contact",
+			"is_objective" : false
+		}, {
+			"key" : "patience",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Patience",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}, {
+			"key" : "passion",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Passion",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}
+	],
+	"subject" : "candidates",
+	"options" : [{
+			"key" : " 1",
+			"name" : "Robin",
+			"values" : {
+			
+				"fullname" : "Robin",
+				"summary" : "I am an excellent Java Developer/Software Engineer focusing on all tiers of J2EE and web application and never afraid to pick up new technologies.",
+				"education" : "Bachelor in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Business Analysis, Programmer",
+				"courses" : "RBC Certified Agile Practitioner",
+				"experience" : "5",
+				"contact" : "robin@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+		"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "2",
+			"name" : "Rob",
+			"values" : {
+				"fullname" : "Rob",
+				"summary" : "Senior Developer with great experience in developing Java applications.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Business Analysis, Programmer",
+				"experience" : "3",
+				"courses" : "RBC Certified Agile Practitioner",
+				"contact" : "rob@rbc.com",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "3",
+			"name" : "Jack",
+			"values" : {
+				"fullname" : "Jack",
+				"summary" : "2+ years of experience in development of Hadoop. 1+ years of exposure to OpenStack.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, C++, GO",
+				"interests" : "Programmer",
+				"courses" : "database design, Improve communication skills",
+				"experience" : "4",
+				"contact" : "jack@rbc.com",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "4",
+			"name" : "Den",
+			"values" : {
+				"fullname" : "Den",
+				"summary" : "Multi-functional experience in Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling.Looking for a challenging opportunity requiring extensive and successful business and IT experience, together with proven accomplishments and strong skills in business analysis, program coordination, project management and communication.",
+				"education" : "Bachelor of Arts",
+				"skills" : "communication skills",
+				"interests" : "Business Analysis",
+				"courses" : "CSC",
+				"contact" : "den@rbc.com",
+				"experience" : "2",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "5",
+			"name" : "Tan",
+			"values" : {
+				"fullname" : "Tan",
+				"summary" : "4 + years of experience in Java development into Market Risk domain. Experience with Hadoop, Spark and NoSQL database Vertica.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, SQL, Vertica, Hadoop, Spark",
+				"interests" : "Manager",
+				"courses" : "FRM, CFA, Agile Scrum Master, Improve communication skills",
+				"experience" : "4",
+				"contact" : "tan@rbc.com",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "6",
+			"name" : "Omar",
+			"values" : {
+				"fullname" : "Omar",
+				"summary" : "6+ years of experience in Java development into Finance and Banking domain. 1+ years of experience into Hadoop/HDFS, Map-Reduce, Spark, Sqoop and Oozie.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, C++, Hadoop/HDFS, Map-Reduce, Spark, Sqoop, Oozie",
+				"interests" : "Programmer",
+				"courses" : "database design, Horotonworks Big Data Developer Certification",
+				"experience" : "10",
+				"contact" : "omar@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "7",
+			"name" : "Abu",
+			"values" : {
+				"fullname" : "Abu",
+				"summary" : "6+ years into System Programming using C/C++ and Java in Manageability, Virtualization and Utility Pricing area, 2+ years of experience in development in Hadoop Map-Reduce. 1+ years of exposure to OpenStack.",
+				"education" : "MS in Software Engineering",
+				"skills" : "Java, C/C++, Shell scripting, Hadoop, OpenStack",
+				"interests" : "Programmer",
+				"courses" : "Machine Learning and Artificial Intelligence, Algorithms",
+				"experience" : "10",
+				"contact" : "abu@rbc.com",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "8",
+			"name" : "Christian",
+			"values" : {
+				"fullname" : "Christian",
+				"summary" : "Excellent in Java programming. 1+ years of development experience in Hadoop, HDFS and Spark.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, Hadoop, Spark, Vertica",
+				"interests" : "Programmer",
+				"courses" : "Horotnworks Hadoop Developer Certification",
+				"experience" : "4",
+				"contact" : "christian@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "9",
+			"name" : "Naga",
+			"values" : {
+				"fullname" : "Naga",
+				"summary" : "Consultant Project Manager and Business Analyst with over 10 years of experience in the financial services	, telecom and hi-tech sectors.",
+				"education" : "Master in Business Administration",
+				"skills" : "communication skills, design and development of database queries and reporting programs",
+				"interests" : "Business Analysis",
+				"courses" : "CSC, FRM, CFA",
+				"contact" : "naga@rbc.com",
+				"experience" : "10",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "10",
+			"name" : "Sabuj",
+			"values" : {
+				"fullname" : "Sabuj",
+				"summary" : "Multi-functional experience in Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling.Looking for a challenging opportunity requiring extensive and successful business and IT experience, together with proven accomplishments and strong skills in business analysis, program coordination, project management and communication.",
+				"education" : "MBA",
+				"skills" : "communication skills, Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling",
+				"interests" : "Business Analysis",
+				"courses" : "CSC",
+				"contact" : "sabuj@rbc.com",
+				"experience" : "2",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "11",
+			"name" : "Denis",
+			"values" : {
+				"fullname" : "Denis",
+				"summary" : "Multi-functional experience in Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling.",
+				"education" : "Bachelor of Commerce",
+				"skills" : "Business Analysis, Business Intelligence, Requirement Gathering , Documentation and Business Modeling",
+				"interests" : "Business Analysis",
+				"courses" : "CSC",
+				"contact" : "denis@rbc.com",
+				"experience" : "5",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "12",
+			"name" : "Pramod",
+			"values" : {
+				"fullname" : "Pramod",
+				"summary" : "Lead Java developer in the Market Risk domain. 10 years of development experience using Spring, Hibernate, Struts, Camel and ActiveMQ.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, Spring, Hibernate, Struts, Camel, ActiveMQ, Vertica",
+				"interests" : "Programmer",
+				"courses" : "IBM Bluemix Cloud Developer",
+				"experience" : "10",
+				"contact" : "pramod@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "13",
+			"name" : "Luyao",
+			"values" : {
+				"fullname" : "Luyao",
+				"summary" : "UI developer. Proficient in Java, Javascript, Servlet, websphere, tomcat.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, Javascript, Servlet, websphere, tomcat",
+				"interests" : "Programmer",
+				"courses" : "UI Design",
+				"experience" : "4",
+				"contact" : "luyao@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "14",
+			"name" : "Manu",
+			"values" : {
+				"fullname" : "Manu",
+				"summary" : "Proficient Java programmer with excellent debugging skills. 7+ years of development experience in Finance, Telecom and Health Care industry.",
+				"education" : "Bachelor in Technology",
+				"skills" : "Java, Spring, MySQL, Vertica",
+				"interests" : "Programmer",
+				"courses" : "Cloudera Certified Hadoop Developer",
+				"experience" : "7",
+				"contact" : "manu@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "15",
+			"name" : "Kayle",
+			"values" : {
+				"fullname" : "Kayle",
+				"summary" : "Proficient in Java and PHP programming. 2+ years of development experience in the Market Risk area.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, PHP, Vertica",
+				"interests" : "Programmer",
+				"courses" : "Agile Practitioner",
+				"experience" : "3",
+				"contact" : "kayle@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "17",
+			"name" : "Noor",
+			"values" : {
+				"fullname" : "Noor",
+				"summary" : "Excellent in Java programming. Co-op student in the UI team for Market Risk.",
+				"education" : "BS in Computer Science",
+				"skills" : "C, C++, Java, JSP, Shell Scripting, ",
+				"interests" : "Programmer",
+				"courses" : "Algorithms and Data Structures, Operating Systems",
+				"experience" : "1",
+				"contact" : "noor@rbc.com",
+				"patience" : "Medium",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "18",
+			"name" : "Victor",
+			"values" : {
+				"fullname" : "Victor",
+				"summary" : "Working as an intern with RBC Capital Markets. Proficient in Java programming. Looking out for challenging opportunities in the emerging technologies such as OpenStack, DevStack and mobile computing in the cloud.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, Python, SQL",
+				"interests" : "Programmer",
+				"courses" : "Cloud Computing, Operating Systems, Algorothms",
+				"experience" : "1",
+				"contact" : "victor@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "19",
+			"name" : "Soumya",
+			"values" : {
+				"fullname" : "Soumya",
+				"summary" : "Proficient in the cutting edge technologies such as Hadoop/HDFS, Ambari, and AppDynamics.",
+				"education" : "Master in Computer Science",
+				"skills" : "Java, Hadoop, Ambari, AppDynamics",
+				"interests" : "Programmer",
+				"courses" : "Horotnworks Hadoop Developer Certification",
+				"experience" : "11",
+				"contact" : "soumya@rbc.com",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "20",
+			"name" : "Shalish",
+			"values" : {
+				"fullname" : "Shalish",
+				"summary" : "Excellent in Java programming. 4+ years of development experience in Hadoop/HDFS, Map-Reduce, Hive, Pig and Oozie",
+				"education" : "Bachelor of Engineering",
+				"skills" : "Java, Hadoop/HDFS, Map-Reduce, Hive, Pig and Oozie",
+				"interests" : "Programmer",
+				"courses" : "Horotnworks Hadoop Developer Certification",
+				"experience" : "8",
+				"contact" : "shalish@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "21",
+			"name" : "Reid",
+			"values" : {
+				"fullname" : "Reid",
+				"summary" : "Excellent in almost anything starting from programming in C/C++, Java or any modern language. Currently building up the BigData platform for RBC, in fact I head the platform engineering.",
+				"education" : "Master in Computer Science",
+				"skills" : "C/C++, Unix/Linix, Java, Hadoop, Spark, Vertica",
+				"interests" : "Programmer",
+				"courses" : "Horotnworks Hadoop Developer Certification",
+				"experience" : "14",
+				"contact" : "reid@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "22",
+			"name" : "Chris",
+			"values" : {
+				"fullname" : "Chris",
+				"summary" : "Chief Data Scientist for the RBC Market Risk, extensive experience in Hadoop/HDFS, Map-Reduce, Spark, Python.",
+				"education" : "PhD in Data Science",
+				"skills" : "Hadoop/HDFS, Map-Reduce, Spark, Python",
+				"interests" : "Programmer",
+				"courses" : "Horotnworks Hadoop Developer Certification, Machine Learning, Predictive Modeling, Algorithms, Artificial Intelligence",
+				"experience" : "10",
+				"contact" : "chris@rbc.com",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "23",
+			"name" : "Kumaran",
+			"values" : {
+				"fullname" : "Kumaran",
+				"summary" : "Development Manager with over 10 + years of experience in the technology, banking and finance domain.",
+				"education" : "Master in Business Administration",
+				"skills" : "communication skills, design and development of database queries and reporting programs",
+				"interests" : "Programmer",
+				"courses" : "CSC, FRM",
+				"contact" : "kumaran@rbc.com",
+				"experience" : "10",
+				"patience" : "High",
+				"passion" : "High"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "24",
+			"name" : "Irina",
+			"values" : {
+				"fullname" : "Irina",
+				"summary" : "Currently working as a Project Manager with RBC Capital Markets, looking for opportunities in high-tech based project management.",
+				"education" : "BaSc,
+				"skills" : "communication skills, MPP, Scrum Master",
+				"interests" : "Manager",
+				"courses" : "CSC",
+				"contact" : "irina@rbc.com",
+				"experience" : "10",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "25",
+			"name" : "Elan",
+			"values" : {
+				"fullname" : "Elan",
+				"summary" : "Accomplished BA with experience performing business analysis client-facing roles in large scale business and technology wealth management projects, as part of Deloitte Consulting and Verax Consulting engagements. 6 years of experience in wealth management, compliance, and client-facing roles. Currently working for the RBC Finance.",
+				"education" : "Bachelor in Business",
+				"skills" : "writing, business knowledge",
+				"interests" : "Business Analyst",
+				"courses" : "FRM, CFA",
+				"contact" : "elan@rbc.com",
+				"experience" : "6",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}
+	]
+}
